@@ -1,0 +1,12 @@
+extends partial/layout
+
+block content
+  include partial/message
+  
+  header
+    .wrap
+      a.home(href='/')= _config_('title')
+  section.wrap
+    div!= body
+
+  include partial/footer
