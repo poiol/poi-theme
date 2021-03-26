@@ -6,7 +6,7 @@ block content
     .wrap
       -if(parent)
         a.back(href=parent)
-          i.ic.ic-back(style="font-size:18px;")
+          i.ic.ic-back
       a.home(href='/')= _config_('title')
       .upload-menu
         -if(writeable)
@@ -29,6 +29,15 @@ block content
         .col-md-2.col-sm-2.col-xs-4.text-right(data-sort="size")= __('size')
         .col-md-3.col-sm-4.hidden-xs.text-right(data-sort="time")= __('last_modified')
     ul.node-list__body
+      -if(parent)
+        li
+          a.clearfix(href=parent, target='',title="....")
+            .row
+              span.file-name.col-md-7.col-sm-6.col-xs-8
+                span
+                  span.file-thumb
+                    i.ic(class='ic ic-back', style="color: #595959")
+                  span.file-name-title ....
       each i in data
         li
           a.clearfix(href=i.href, target=i.type == 'folder' ? '' : '_blank',title=i.name)
