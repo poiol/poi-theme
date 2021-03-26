@@ -97,7 +97,4 @@ $(function() {
   })
 
   renderViewMode()
-  // 应用配置
-  $('header.index-header').css('background-image', 'url(' + APP_CONFIG.headImage + ')')
-  $('header').css('background-color', APP_CONFIG.headColor)
 })

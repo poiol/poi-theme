@@ -3,6 +3,12 @@ footer
     a(href='https://github.com/poiol/poi-theme',target='_blank') Poi-Theme
     a(href='https://github.com/reruin/sharelist',target='_blank') ShareList
     a(href='/manage',target='_blank')= __('manage')
+
+script.
+  // 应用配置
+  $('header.index-header').css('background-image', 'url(' + APP_CONFIG.headImage + ')')
+  $('header').css('background-color', APP_CONFIG.headColor)
+
 -if(g_config.custom_script)
   .
     !{g_config.custom_script}
