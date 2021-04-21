@@ -2,7 +2,7 @@
 poi-theme 基于 ShareList 默认主题开发
 
 ## 预览
-![](https://i.loli.net/2021/04/21/1TyAPjCtx3hbEnF.png)
+![](https://i.loli.net/2021/04/21/hwm5S3J9vt6yU4A.png)
 ![](https://i.loli.net/2021/04/21/hXqtV54cz2MZQT6.png)
 ![](https://i.loli.net/2021/04/21/r4myT5SAse6QPO8.png)
 
