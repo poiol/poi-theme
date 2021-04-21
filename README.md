@@ -1,5 +1,5 @@
 # poi-theme
-poi-theme 基于 ShareList 默认主题开发
+poi-theme 基于 [ShareList](https://github.com/reruin/sharelist)] 默认主题开发
 
 ## 预览
 ![](https://i.loli.net/2021/04/21/hwm5S3J9vt6yU4A.png)
