@@ -16,7 +16,7 @@ poi-theme 基于 ShareList 默认主题开发
 2. 修改本项目\script\config.js中头图与预览页背景色设置
 3. 在sharelist后台选择poi-theme主题
 4. 坐与放宽(
-- 
+
 ## 许可
 [Apache-2](http://www.apache.org/licenses/LICENSE-2.0)   
 Copyright (c) 2018-present, Reruin
