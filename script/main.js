@@ -2,18 +2,21 @@ function renderViewMode() {
   let isGrid = localStorage['viewport_mode'] == 'grid'
   if (isGrid) {
     $('.node-list').addClass('node-list--grid')
-    $('.file-thumb-img').each(function(){
-      $(this).css({'background':'url('+$(this).attr('data-src')+') center center / contain no-repeat'})
-    })
+    // $('.file-thumb-img').each(function(){
+    //   $(this).css({'background':'url('+$(this).attr('data-src')+') center center / contain no-repeat'})
+    // })
     $('.menu-viewtype').addClass('menu-viewtype--grid')
 
   } else {
     $('.node-list').removeClass('node-list--grid')
-    $('.file-thumb-img').each(function(){
-      $(this).css({'background':'none'})
-    })
+    // $('.file-thumb-img').each(function(){
+    //   $(this).css({'background':'none'})
+    // })
     $('.menu-viewtype').removeClass('menu-viewtype--grid')
   }
+  $('.file-thumb-img').each(function(){
+    $(this).css({'background':'url('+$(this).attr('data-src')+') center center / contain no-repeat'})
+  })
 }
 
 var sortManager = (function(){
