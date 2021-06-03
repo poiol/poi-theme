@@ -9,13 +9,13 @@ block content
           i.ic.ic-back
       a.home(href='/')= _config_('title')
       .upload-menu
-        -if(writeable)
-          a
-            i.ic.ic-upload-folder
-            input(type="file",multiple="",webkitdirectory="",directory="",name="file")
-          a
-            i.ic.ic-upload
-            input(type="file",multiple="",name="file")
+        //- -if(writeable)
+        //-   a
+        //-     i.ic.ic-upload-folder
+        //-     input(type="file",multiple="",webkitdirectory="",directory="",name="file")
+        //-   a
+        //-     i.ic.ic-upload
+        //-     input(type="file",multiple="",name="file")
         -if(downloadable)
           a(href='?download',title="下载文件夹")
             i.ic.ic-folder-download
